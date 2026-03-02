@@ -1,0 +1,9 @@
+{
+  "name": "classic-snake-online",
+  "version": "1.0.0",
+  "description": "Classic vibe snake game playable over the internet",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
