@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Snake Online</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <h1>Classic Snake</h1>
+      <p class="subtitle">Arrow keys / WASD • Press Space to pause</p>
+
+      <section class="hud" aria-live="polite">
+        <div>Score: <span id="score">0</span></div>
+        <div>Best: <span id="best-score">0</span></div>
+        <div>Speed: <span id="speed">1x</span></div>
+      </section>
+
+      <canvas id="game" width="480" height="480" aria-label="Snake game board"></canvas>
+
+      <p id="message" class="message">Press Enter to start</p>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
